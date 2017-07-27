@@ -1,0 +1,21 @@
+Page({
+  onReady: function (e) {
+    // 使用 wx.createAudioContext 获取 audio 上下文 context
+    this.audioCtx = wx.createAudioContext('myAudio')
+  },
+  data: {
+    poster: 'http://78remu.com1.z0.glb.clouddn.com/4.jpg',
+    name: 'May you find peace in the rain.',
+    author: 'Conan',
+    src: 'http://78remu.com1.z0.glb.clouddn.com/The%20Nature%20Sounds%20Society%20Japan%20-%20Rain,%20Totoro%20Forest.mp3',
+    loop:true,
+  },
+  audioPlay: function () {
+    this.audioCtx.play()
+  },
+  audioPause: function () {
+    this.audioCtx.pause()
+  },
+
+})
+  < span style= "font-family:Comic Sans MS;font-size:18px;color:#333333;" >//record.js   

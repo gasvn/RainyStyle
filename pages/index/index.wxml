@@ -1,0 +1,11 @@
+<!-- audio.wxml -->
+<span style="font-family:Comic Sans MS;font-size:18px;color:#333333;">
+  <view class="index-hd">
+    <image class="index-logo" src="resources/logo.jpg"></image>
+    <view class="index-desc">May you find peace in the rain.</view>
+  </view>
+<view class="index-ft">
+     <image style="width:{{imgwidth}}rpx; height:{{imgheight}}rpx; background-color: #eeeeee; " mode="{{item.mode}}" src="{{src}}"></image>
+     <button type="primary" size="mini" loading="true" bindtap="listenerButtonPlay">Step into the rain</button>  
+     <button type="default" size="mini" bindtap="listenerButtonPause">Step out the rain</button>  
+</view></span>
