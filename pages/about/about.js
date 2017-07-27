@@ -4,8 +4,7 @@ var app = getApp()
     //获取应用实例    
     Page({
       data: {
-        array:[{mode:'scaleToFill'}],
-        src: 'http://78remu.com1.z0.glb.clouddn.com/4.jpg',
+       
        
       },
       listenerSwitch: function (e) {

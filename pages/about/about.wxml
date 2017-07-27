@@ -10,19 +10,15 @@
      <button type="primary" size="mini" loading="true" bindtap="listenerButtonPlay">Step into the rain</button>  
      <button type="default" size="mini" bindtap="listenerButtonPause">Step out the rain</button>  
     -->
+  <view class="index-hd">
 
-<image style="width:{{imgwidth}}rpx; height:{{imgheight}}rpx; background-color: #eeeeee; " mode="{{item.mode}}" src="{{src}}"></image>   
-<view>Rain <switch type="switch" checked="false" bindchange="listenerSwitch"/>Or Not</view>
+    <view class="index-desc">本项目已在GitHub开源,欢迎fork. github.com/gasvn/RainyStyle</view>
+  </view>
 
-</view>
-</span>
 
-<span style="font-family:Comic Sans MS;font-size:10px;color:#333333;">
-<navigator url="../../pages/about/about">
-  <view class="index-about">About</view>
-</navigator>
+</view></span>
 
-</span>
+
 
 
 
